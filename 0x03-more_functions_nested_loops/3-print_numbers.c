@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * putchar - print numbers
+ * @a: placeholder for 0
+ * Return: (0)
  */
 
 
