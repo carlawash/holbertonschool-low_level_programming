@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *
- *
+ * jack_bauer - prints hours and minutes
+ * Description: nested loop
  * Return:(0)
  */
 
