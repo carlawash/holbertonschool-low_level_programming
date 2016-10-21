@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * putchar - print numbers
- * @a: placeholder for 0
- * Return: (0)
+ * print_numbers - print numbers
+ *
+ *
  */
 
 
