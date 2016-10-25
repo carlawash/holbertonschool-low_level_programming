@@ -1,10 +1,9 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- *
+ * swap_int - swaps value of two integers
+ * @a: holds value
+ * @b: holds value
  */
 
 void swap_int(int *a, int *b)
