@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *
- *
+ * puts_half - prints half of string
+ * @str: string
  *
  */
 
