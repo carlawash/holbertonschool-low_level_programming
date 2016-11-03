@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *
- *
+ * _print_rev_recursion - reverse recursion
+ * @s: pointer that prints string
  *
  */
 void _print_rev_recursion(char *s)
