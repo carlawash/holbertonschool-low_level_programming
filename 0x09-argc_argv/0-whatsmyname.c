@@ -5,9 +5,9 @@
 * @argv: value
 * Return: (0)
 */
-int main(int agrc, char *agrv[])
+int main(int argc, char *argv[])
 {
-	if (agrc <= 1)
-		printf("%s\n", argv[0]);
+	argc--;
+	printf("%s\n", argv[0]);
 	return (0);
 }
