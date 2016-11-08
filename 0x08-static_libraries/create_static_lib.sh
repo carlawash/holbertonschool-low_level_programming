@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -Wall -Wextra -Werror -pedantic -c *.o
-ar rc libholbertonschool.a *.o
-
+gcc -Wall -Wextra -Werror -pedantic -c *.c
+ar -rc libholbertonschool.a *.o
