@@ -1,3 +1,3 @@
 #!/bin/bash
 gcc -Wall -Wextra -Werror -pedantic -c *.c
-ar -rc libholbertonschool.a *.o
+ar -rc liball.a *.o
