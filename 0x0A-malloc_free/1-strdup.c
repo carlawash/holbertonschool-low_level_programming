@@ -7,18 +7,18 @@
  */
 char *_strdup(char *str)
 {
-	char *dup, *temp;
+	char *dup, *tem;
 
 	dup = malloc(sizeof(*str));
-	temp = dup;
-	while (*str  != '\n')
+	tem = dup;
+	while (*str  != '\0')
 	{
 		*dup = *str;
 		dup++;
 		str++;
 	}
-	if (temp)
-		return (temp);
+	if (tem)
+		return (tem);
 	else
 		return (NULL);
 }
