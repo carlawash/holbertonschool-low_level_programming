@@ -5,7 +5,6 @@
  * @s: string to replace from
  * Return: Pointer to changed string
  */
-
 char *leet(char *s)
 {
 	char *temp;
