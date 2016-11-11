@@ -2,25 +2,41 @@
 #include <stdlib.h>
 
 /**
- * main - add up positive numbers
+ * main - program that adds positive numbers
  * @argc: number of arguments
- * @argv: array of arguments
- * Return: (0)
+ * @argv: string array of arguemnts passed
+ * Return: 0 if successful, 1 if Error
  */
 int main(int argc, char *argv[])
 {
-	int i;
-	long sum;
+	int i, n, sum;
 
-	for (i = 1, sum = 0; i < argc; i++)
+	n = sum = 0;
+	i = 1;
+	if (argc <= 1)
 	{
-		if (*argv[i] == 0 || atoi(argv[i]) <= 0)
-		{
-			printf("Error\n");
-			return (1);
-		}
-		sum += atoi(argv[i]);
+		printf("0\n");
+		return (0);
 	}
-	printf("%ld\n", sum);
+	while (i < argc)
+	{
+		while (*argv[i] != '\0')
+		{
+			if (*argv[i] >= '0' && *argv[i] <= '9')
+			{
+				n = n * 10 + *argv[i] - '0';
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+			argv[i]++;
+		}
+		sum = sum + n;
+		n = 0;
+		i++;
+	}
+	printf("%d\n", sum);
 	return (0);
 }
